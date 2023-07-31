@@ -1,0 +1,36 @@
+.cabecalho__bt-login {
+    border-color: #2A7AE4;
+    border-style: solid 1px;
+    color: #2A7AE4;
+    cursor: pointer;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+    width: 182px;
+}
+
+.cabecalho__bt-login:hover {
+    background-color: #D4E4FA;
+}
+
+/*Estilos para telas de Tablets*/
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .cabecalho__bt-login {
+        margin-right: 30px;
+        width: 160px;
+        height: 35px;
+        font-size: 14px;
+    }   
+}
+
+/*Estilos para telas de Celulares*/
+@media screen and (max-width: 480px) {
+    .cabecalho__bt-login {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+        position: fixed;
+        right: 80px;       
+    }    
+}

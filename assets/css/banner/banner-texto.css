@@ -1,0 +1,45 @@
+.banner__texto {
+    padding-bottom: 20px;
+    width: 1130px;
+}
+.banner__texto h1 {
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.banner__texto p {
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+/*Estilos para telas de Tablets*/
+@media screen and (min-width: 481px) and (max-width: 885px) {
+    .banner__texto {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+    }
+}
+
+/*Estilos para telas de Celulares*/
+@media screen and (max-width: 480px) {
+    .banner__texto {
+        display: flex;
+        flex-direction: column;
+        width: 310px;
+    }
+    .banner__texto h1 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    .banner__texto p {
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+}

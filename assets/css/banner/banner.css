@@ -1,0 +1,18 @@
+.banner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 352px;
+    justify-content: flex-end;
+    /*estilos do background*/
+    background-image: url(../../images/Hero_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Estilos para telas de celular*/
+@media screen and (max-width: 480px) {
+    .banner {
+      background-position: center
+    }
+}

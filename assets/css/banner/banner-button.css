@@ -1,0 +1,15 @@
+.banner__button {
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+    width: 130px;
+}
+.banner__button:hover {
+    background-color: #5595E9;
+    transition: ease-in-out 0.5s;
+}

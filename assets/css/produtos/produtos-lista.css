@@ -1,0 +1,16 @@
+.produtos__lista {
+    padding-top: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width: 480px) {
+    .produtos__lista {
+        padding-top: 0px;
+    }
+    
+}

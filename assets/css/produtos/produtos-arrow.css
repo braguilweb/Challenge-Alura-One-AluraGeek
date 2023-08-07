@@ -1,0 +1,19 @@
+.produtos__arrow {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.produtos__arrow img {
+    padding-left: 10px;
+}
+
+.produtos__arrow--link {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7AE4;
+    cursor: pointer;
+    text-decoration: none;
+}
+

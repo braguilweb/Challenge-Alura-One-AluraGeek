@@ -1,0 +1,42 @@
+.produtos__container {
+    width: 1136px;
+    
+}
+
+.produtos__container h2 {
+    
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+}
+
+
+
+.produtos__container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+/*Estilos para telas de tablets*/
+@media screen and (min-width:481px) and (max-width:850px) {
+    .produtos__container {
+        width: 700px;
+    }
+    .produtos__container h2 {
+        font-size: 22px;
+    }
+}
+
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width: 480px) {
+    .produtos__container {
+        width: 320px;
+    }
+    .produtos__container h2 {
+        font-size: 22px;
+    }
+    
+}

@@ -1,0 +1,56 @@
+.cards__produtos {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.cards__valor {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cards__link {
+    color: #2A7AE4;
+    cursor: pointer;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+/*Estilos para telas de Tablets*/
+@media screen and (min-width: 481px) and (max-width: 850px) {
+
+    .produtos__cards:nth-child(n+5) {
+        display: none;
+    }
+    .produtos__cards img {
+        width: 164px;
+    }
+}
+
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width:480px) {
+    .produtos__cards:nth-child(n+5) {
+        display: none;
+    }
+    .produtos__cards img {
+        width: 156px;
+        padding-top: 20px;
+    }
+    .cards__link {
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+   
+    
+}
+

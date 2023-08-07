@@ -1,3 +1,7 @@
+.produtos__cards img {
+    cursor: pointer;
+}
+
 .cards__produtos {
     color: #464646;
     font-family: Raleway, sans-serif;
@@ -50,7 +54,5 @@
         font-size: 14px;
         padding-bottom: 0px;
     }
-   
-    
 }
 

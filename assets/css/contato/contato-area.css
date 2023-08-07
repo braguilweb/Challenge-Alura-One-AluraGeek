@@ -1,0 +1,8 @@
+@media screen and (max-width:480px) {
+    .contato__area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 320px;
+    }
+}

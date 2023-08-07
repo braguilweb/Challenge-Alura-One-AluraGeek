@@ -1,8 +1,8 @@
 .produtos__lista {
-    padding-top: 30px;
-    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
 
 }
 

@@ -1,0 +1,55 @@
+.quemSomos {
+    align-items: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1136px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.quemSomos img {
+    cursor: pointer;
+}
+.quemSomos ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+}
+.quemSomos a {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+/*Estilos para telas de tablets*/
+
+@media screen and (min-width:481px) and (max-width:850px) {
+    .quemSomos {
+        width: 700px;
+    }
+    .quemSomos img {
+        position: absolute;
+    }
+    .quemSomos ul {
+        justify-content: space-around;
+        padding-top: 61px;
+    }    
+}
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width: 480px) {
+    .quemSomos {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 320px;
+    }
+    .quemSomos ul {
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

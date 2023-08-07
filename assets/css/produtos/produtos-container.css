@@ -2,21 +2,17 @@
     width: 1136px;
     
 }
-
 .produtos__container h2 {
     
+    color: #464646;
     font-family: Raleway, sans-serif;
     font-size: 32px;
     font-weight: 700;
-    color: #464646;
 }
-
-
-
 .produtos__container div {
+    align-items: center;   
     display: flex;
     justify-content: space-between;
-    align-items: center;   
 }
 
 /*Estilos para telas de tablets*/
@@ -37,6 +33,5 @@
     }
     .produtos__container h2 {
         font-size: 22px;
-    }
-    
+    }  
 }

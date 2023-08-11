@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho__container {
+    align-items: center;    
+    display: flex;
+    justify-content: left;
+    width: 1132px;
+}

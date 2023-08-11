@@ -1,0 +1,19 @@
+.login__area {
+   align-items: center;
+   border: none;
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   text-align: center;
+   width: 423px;
+}
+
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width: 480px) {
+   .login__area {
+      width: 320px;
+   }
+   
+}
+

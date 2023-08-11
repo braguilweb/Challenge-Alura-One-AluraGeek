@@ -1,0 +1,18 @@
+.IniciarSessao__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width: 480px) {
+   .IniciarSessao__container fildset {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+    
+ }

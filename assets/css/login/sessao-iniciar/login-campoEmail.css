@@ -1,0 +1,23 @@
+.login__campoEmail input {
+    color: #A2A2A2;
+    border: none;
+    border-bottom: solid 0.5px #C8C8C8;
+    height: 63px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 423px;
+}
+
+.login__campoEmail {
+    padding-bottom: 20px;
+}
+
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width: 480px) {
+   .login__campoEmail input{
+    width: 320px;
+   }
+    
+ }

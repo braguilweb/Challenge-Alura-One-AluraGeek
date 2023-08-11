@@ -6,6 +6,10 @@
     width: 1136px;
     margin-bottom: 30px;
     margin-top: 30px;
+    
+}
+.quemSomos li {
+    list-style-type: none;
 }
 .quemSomos img {
     cursor: pointer;
@@ -15,6 +19,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 240px;
+    text-decoration: none;
 }
 .quemSomos a {
     color: #464646;
@@ -35,6 +40,7 @@
     .quemSomos ul {
         justify-content: space-around;
         padding-top: 61px;
+        padding-left: 0px;
     }    
 }
 /*Estilos para telas de celulares*/

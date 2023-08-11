@@ -1,0 +1,28 @@
+.cabecalho__principal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 600px;
+}
+
+/*Estilos para telas de Tablets*/
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .cabecalho__principal {
+        justify-content: space-evenly;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/*Estilos para telas de Celulares*/
+@media screen and (max-width: 480px) {
+    .cabecalho__principal {
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 320px;
+    }
+}

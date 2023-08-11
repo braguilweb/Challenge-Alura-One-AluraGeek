@@ -1,0 +1,26 @@
+.login__button {
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    height: 62px;
+    width: 423px;
+
+}
+
+.login__button:hover {
+    background-color: #5595E9;
+    transition: ease-in-out 0.5s;
+}
+
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width: 480px) {
+   .login__button {
+    width: 320px;
+   }
+    
+ }

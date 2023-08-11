@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Tela de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/normalise.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/login/cabecalho/bt-login.css">
+    <link rel="stylesheet" href="/assets/css/login/cabecalho/cabecalho-area-de-pesquisa.css">
+    <link rel="stylesheet" href="/assets/css/login/cabecalho/cabecalho-container.css">
+    <link rel="stylesheet" href="/assets/css/login/cabecalho/cabecalho-principal.css">
+    <link rel="stylesheet" href="/assets/css/login/cabecalho/logo.css">
+    <link rel="stylesheet" href="/assets/css/login/sessao-iniciar/iniciarSessao.css">
+    <link rel="stylesheet" href="/assets/css/login/sessao-iniciar/login-area.css">
+    <link rel="stylesheet" href="/assets/css/login/sessao-iniciar/login-button.css">
+    <link rel="stylesheet" href="/assets/css/login/sessao-iniciar/login-titulo.css">
+    <link rel="stylesheet" href="/assets/css/login/sessao-iniciar/login-campoSenha.css">
+    <link rel="stylesheet" href="/assets/css/login/sessao-iniciar/login-campoEmail.css">
+    <link rel="stylesheet" href="/assets/css/rodape/footer.css">
+    <link rel="stylesheet" href="/assets/css/rodape/rodape.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-area.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-button.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-campoMensagem.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-campoNome.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-titulo.css">
+    <link rel="stylesheet" href="/assets/css/quemSomos/quemSomos.css">
+</head>
+<body>
+    <header>
+        <nav class="cabecalho__container">
+            <div class="cabecalho__principal">
+                <img class="logo" src="/assets/images/Logo.png" alt="Logo da Alura Geek">
+                <div class="cabecalho__area-de-pesquisa">
+                    <input type="text" name="pesquisa" id="pesquisa" placeholder="O que deseja encontrar?">
+                    <img src="/assets/images/Icone_lupa.png" alt="Icone de lupa">
+                </div>
+            </div>
+           
+        </nav>
+    </header>
+    <section class="IniciarSessao__container">
+        <form action="">
+            <fieldset class="login__area">
+                <legend>
+                    <h3 class="login__titulo">Iniciar Sessão</h3>
+                </legend>
+                <div class="login__campoEmail">
+                    <input type="email" name="email" id="email" placeholder="Escreva seu email" required>
+                </div>
+                <div class="login__campoSenha">
+                    <input type="password" name="senha" id="senha" placeholder="Escreva sua senha" required>
+                </div>
+                <button class="login__button">Entrar</button>
+            </fieldset>
+        </form>
+    </section>
+    <footer class="footer">
+        <section class="quemSomos">
+            <img src="/assets/images/Logo.png" alt="Foto do logotipo">
+            <ul>
+                <li><a href="#">Quem somos nós</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Programa de fidelidade </a></li>
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Quero ser franqueado</a></li>
+                <li><a href="#">Anuncie aqui</a></li>
+            </ul>
+            <form action="">
+                <fieldset class="contato__area">
+                    <legend>
+                        <h3 class="contato__titulo">Fale conosco</h3>
+                    </legend>
+                    <div class="contato__campoNome">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="contato__campoMensagem">
+                        <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem" ></textarea>
+                    </div>
+                    <button class="contato__button">Enviar mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+    </footer>    
+    <section class="rodape">
+        <p>Desenvolvido por Guilherme Braga<br>2023</p>
+    </section> 
+</body>
+</html>

@@ -1,0 +1,23 @@
+.login__campoSenha input {
+    border-bottom: solid 0.5px #C8C8C8;
+    border: none;
+    color: #A2A2A2;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 63px;
+    width: 423px;
+}
+
+.login__campoSenha {
+    padding-bottom: 20px;
+}
+
+/*Estilos para telas de celulares*/
+
+@media screen and (max-width: 480px) {
+   .login__campoSenha input {
+    width: 320px;
+   }
+    
+ }

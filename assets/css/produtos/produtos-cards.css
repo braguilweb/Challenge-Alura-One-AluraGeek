@@ -1,7 +1,6 @@
 .produtos__cards img {
     cursor: pointer;
 }
-
 .cards__produtos {
     color: #464646;
     font-family: Raleway, sans-serif;
@@ -9,7 +8,6 @@
     font-weight: 500;
     padding-top: 10px;
 }
-
 .cards__valor {
     color: #464646;
     font-family: Raleway, sans-serif;
@@ -18,7 +16,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .cards__link {
     color: #2A7AE4;
     cursor: pointer;
@@ -41,7 +38,6 @@
 }
 
 /*Estilos para telas de celulares*/
-
 @media screen and (max-width:480px) {
     .produtos__cards:nth-child(n+5) {
         display: none;

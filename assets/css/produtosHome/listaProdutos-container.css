@@ -1,0 +1,22 @@
+.listaProdutos__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1133px;
+}
+/*Estilos para telas de tablets*/
+@media screen and (min-width: 481px) and (max-width:850px) {
+    .listaProdutos__container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;        
+        width: 750px;
+    }
+}
+
+/*Estilos para telas de celulares*/
+@media screen and (max-width:480px) {
+    .listaProdutos__container{
+        width: 360px;
+    } 
+}
+

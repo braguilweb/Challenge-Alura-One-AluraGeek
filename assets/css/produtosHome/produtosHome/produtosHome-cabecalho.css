@@ -1,0 +1,23 @@
+.produtosHome__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 1133px;
+}
+
+/*Estilos para telas de tablets*/
+@media screen and (min-width: 481px) and (max-width:850px) {
+    .produtosHome__cabecalho {
+        width: 731px;
+    }
+}
+
+/* Estilos para telas de ceulares*/
+@media screen and (max-width: 480px) {
+    .produtosHome__cabecalho {
+        align-items: start;
+        flex-direction: column;
+        width: 360px;
+    }
+}

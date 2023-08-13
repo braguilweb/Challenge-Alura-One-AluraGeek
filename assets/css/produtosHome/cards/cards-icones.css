@@ -1,0 +1,11 @@
+.cards__icones {
+    display: flex;
+    justify-content: end;
+    width: 176px;
+    position: absolute;
+}
+.cards__icones img {
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+}
+

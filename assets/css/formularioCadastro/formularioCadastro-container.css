@@ -1,0 +1,15 @@
+.formularioCadastro__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Estilos para telas de celulares*/
+@media screen and (max-width: 480px) {
+    .formularioCadastro__container fildset {
+        display: flex;
+        justify-content: center;
+        width: 310px;
+    }
+}

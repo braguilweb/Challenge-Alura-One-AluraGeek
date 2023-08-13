@@ -1,0 +1,30 @@
+.adicionaProdutos__principal {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1136px;
+    align-items: center;
+}
+
+/*Estilos para telas de Tablets*/
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .adicionaProdutos__principal {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-evenly;
+    }
+}
+
+/*Estilos para telas de Celulares*/
+@media screen and (max-width: 480px) {
+    .adicionaProdutos__principal {
+        width: 340px;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
+       
+        
+    }
+}

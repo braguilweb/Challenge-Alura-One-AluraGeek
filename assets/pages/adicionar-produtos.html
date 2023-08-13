@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Adicionar produtos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/normalise.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/adicionarProdutos/adicionaProdutos-button.css">
+    <link rel="stylesheet" href="/assets/css/adicionarProdutos/adicionaProdutos-container.css">
+    <link rel="stylesheet" href="/assets/css/adicionarProdutos/adicionaProdutos-pesquisa.css">
+    <link rel="stylesheet" href="/assets/css/adicionarProdutos/adicionaProdutos-principal.css">
+    <link rel="stylesheet" href="/assets/css/adicionarProdutos/adicionaProduto-logo.css">
+    <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-area.css">
+    <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-button.css">
+    <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-categoria.css">
+    <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-container.css">
+    <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-descricao.css">
+    <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-preco.css">
+    <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-produto.css">
+    <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-titulo.css">
+    <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-url.css">
+</head>
+<body>
+    <header>
+        <nav class="adicionaProdutos__container">
+            <div class="adicionaProdutos__principal">
+                <a href="/index.html"><img class="adidionaProduto__logo" src="/assets/images/Logo.png" alt="Logo da Alura Geek"></a>
+                <div class="adicionaProdutos__area-de-pesquisa">
+                    <input type="text" name="pesquisa" id="pesquisa" placeholder="O que deseja encontrar?">
+                    <img src="/assets/images/Icone_lupa.png" alt="Icone de lupa">
+                </div>
+                <button class="adicionaProdutos__button">Menu administrador</button>
+            </div>
+        </nav>
+    </header>
+    <section class="formularioCadastro__container">
+        <form action="">
+            <fieldset class="formularioCadastro__area">
+                <legend>
+                    <h3 class="formularioCadastro__titulo">Adicionar novo produto</h3>
+                </legend>
+                <div class="formularioCadastro__url">
+                    <label for="url">URL da imagem</label>
+                    <input type="url" name="url" id="url" required>
+                </div>
+                <div class="formularioCadastro__categoria">
+                    <label for="categoria">Categoria</label>
+                    <input type="text" name="categoria" id="categoria" required>
+                </div>
+                <div class="formularioCadastro__produto">
+                    <label for="produto">Nome do produto</label>
+                    <input type="text" name="produto" id="produto" required>
+                </div>
+                <div class="formularioCadastro__preco">
+                    <label for="preco">Preço do produto</label>
+                    <input type="number" name="preco" id="preco" required>
+                </div>
+                <div class="formularioCadastro__descricao">
+                    <label for="descricao">Descrição do produto</label>
+                    <input type="text" name="descricao" id="descricao" required>
+                </div>
+                <button class="formularioCadastro__button">Adicionar produto</button>
+            </fieldset>
+        </form>
+    </section>
+    
+</body>
+</html>

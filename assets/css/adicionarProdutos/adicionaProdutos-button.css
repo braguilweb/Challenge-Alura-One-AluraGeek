@@ -1,0 +1,35 @@
+.adicionaProdutos__button {
+    border: solid 1px;
+    border-color: #2A7AE4;
+    color: #2A7AE4;
+    height: 51px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 181px;
+}
+.adicionaProdutos__button:hover {
+    background-color: #D4E4FA;
+    transition: ease-in-out 0.5s;
+}
+
+/*Estilos para telas de tablets*/
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .adicionaProdutos__button {
+        font-size: 14px;
+        height: 40px;
+        width: 166px;
+    }    
+}
+
+/*Estilos para telas de celulares*/
+@media screen and (max-width: 480px) {
+    .adicionaProdutos__button {
+        align-items: center;
+        height: 40px;
+        font-size: 14px;
+        left: 155px;
+        position: absolute;
+        width: 166px;
+    }
+}

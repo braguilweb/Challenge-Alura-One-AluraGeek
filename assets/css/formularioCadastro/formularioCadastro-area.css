@@ -1,0 +1,31 @@
+.formularioCadastro__area {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    justify-content: space-between;
+    text-align: left;
+    width: 560px;
+}
+.formularioCadastro__area label {
+    padding-top: 3px;
+    padding-left: 10px;
+}
+.formularioCadastro__area input {
+    padding-left: 10px;
+}
+
+/*Estilos para telas de tablets*/
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .formularioCadastro__area {
+        height: 480px;
+        width: 700px;
+    }
+}
+
+/*Estilos para telas de celulares*/
+@media screen and (max-width: 480px) {
+    .formularioCadastro__area {
+       width: 310px;
+    }
+}

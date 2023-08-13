@@ -1,0 +1,22 @@
+.formularioCadastro__titulo {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+/*Estilos para telas de tablets*/
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .formularioCadastro__titulo {
+        font-size: 22px;
+    }
+}
+
+/*Estilos para telas de celulares*/
+@media screen and (max-width: 480px) {
+    .formularioCadastro__titulo {
+        font-size: 22px;
+        padding-left: 5px;
+    }   
+}

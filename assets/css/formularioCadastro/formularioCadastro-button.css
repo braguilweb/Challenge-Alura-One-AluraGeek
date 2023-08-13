@@ -1,0 +1,29 @@
+.formularioCadastro__button {
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    height: 62px;
+    width: 572px;
+}
+.formularioCadastro__button:hover {
+    background-color: #5595E9;
+    transition: ease-in-out 0.5s;
+}
+
+/*Estilos para telas de tablet*/
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .formularioCadastro__button {
+        width: 712px;
+    }
+}
+
+/*Estilos para telas de celulares*/
+@media screen and (max-width: 480px) {
+   .formularioCadastro__button {
+        width: 327px;
+   }
+}

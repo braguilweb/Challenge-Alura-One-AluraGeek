@@ -1,0 +1,23 @@
+.produto__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 560px;
+    height: 210px;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .produto__container {
+        width: 434px;
+        height: 157px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .produto__container {
+        padding-top: 10px;
+        width: 320px;
+        height: 270px;
+    }
+}

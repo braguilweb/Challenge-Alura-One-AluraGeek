@@ -1,0 +1,28 @@
+.produto__principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1136px;
+    justify-content: center;
+}
+
+/*Estilo para telas de tablets*/
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .produto__principal {
+        width: 720px;
+    }
+    .produto__principal img {
+        width: 254px;
+        height: 157px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .produto__principal {
+        flex-direction: column;
+    }
+    .produto__principal img {
+        width: 320px;
+    }
+}

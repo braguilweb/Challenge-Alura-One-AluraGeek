@@ -1,0 +1,14 @@
+.produto__titulo {
+    font-family: Raleway, sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    color:#464646;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .produto__titulo {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,14 @@
+.produto__preco {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .produto__preco {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,14 @@
+.produto__descricao {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #464646;
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+    .produto__descricao {
+        font-size: 14px;
+        
+    }
+}

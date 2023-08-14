@@ -1,16 +1,13 @@
 .adicionaProdutos__area-de-pesquisa {
     align-items: center;
     display: flex;
-    
 }
-
 .adicionaProdutos__area-de-pesquisa ::placeholder {
     color: #A2A2A2;
     font-family: Raleway, sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
-
 .adicionaProdutos__area-de-pesquisa input {
     color: #A2A2A2;
     border: none;
@@ -37,13 +34,8 @@
 }
 
 /*Estilos para telas de Celulares*/
-@media screen and (max-width: 480px) {
-    .adicionaProdutos__area-de-pesquisa {
-        
-    }
-  
+@media screen and (max-width: 480px) { 
     .adicionaProdutos__area-de-pesquisa input {
         display: none;
-        
     }
 }

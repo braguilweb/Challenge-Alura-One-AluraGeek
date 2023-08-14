@@ -21,6 +21,14 @@
     <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-produto.css">
     <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-titulo.css">
     <link rel="stylesheet" href="/assets/css/formularioCadastro/formularioCadastro-url.css">
+    <link rel="stylesheet" href="/assets/css/rodape/footer.css">
+    <link rel="stylesheet" href="/assets/css/rodape/rodape.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-area.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-button.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-campoMensagem.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-campoNome.css">
+    <link rel="stylesheet" href="/assets/css/contato/contato-titulo.css">
+    <link rel="stylesheet" href="/assets/css/quemSomos/quemSomos.css">
 </head>
 <body>
     <header>
@@ -31,7 +39,7 @@
                     <input type="text" name="pesquisa" id="pesquisa" placeholder="O que deseja encontrar?">
                     <img src="/assets/images/Icone_lupa.png" alt="Icone de lupa">
                 </div>
-                <a href="/assets/pages/produtos-home.html"><button class="adicionaProdutos__button">Menu administrador</button></a>
+                <button class="adicionaProdutos__button" onclick="">Menu administrador</button>
             </div>
         </nav>
     </header>
@@ -64,6 +72,37 @@
                 <button class="formularioCadastro__button">Adicionar produto</button>
             </fieldset>
         </form>
+    </section>
+    <footer class="footer">
+        <section class="quemSomos">
+            <a href="/index.html"><img src="/assets/images/Logo.png" alt="Foto do logotipo"></a>
+            <ul>
+                <li><a href="#">Quem somos nós</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Programa de fidelidade </a></li>
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Quero ser franqueado</a></li>
+                <li><a href="#">Anuncie aqui</a></li>
+            </ul>
+            <form action="">
+                <fieldset class="contato__area">
+                    <legend>
+                        <h3 class="contato__titulo">Fale conosco</h3>
+                    </legend>
+                    <div class="contato__campoNome">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="contato__campoMensagem">
+                        <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem" ></textarea>
+                    </div>
+                    <button class="contato__button">Enviar mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+    </footer>    
+    <section class="rodape">
+        <p>Desenvolvido por Guilherme Braga<br>2023</p>
     </section>
     
 </body>

@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="/assets/css/contato/contato-campoNome.css">
     <link rel="stylesheet" href="/assets/css/contato/contato-titulo.css">
     <link rel="stylesheet" href="/assets/css/quemSomos/quemSomos.css">
+    <link rel="stylesheet" href="/assets/css/login/sessao-iniciar/login-convidado.css">
+    
 </head>
 <body>
     <header>
@@ -52,7 +54,8 @@
                 <div class="login__campoSenha">
                     <input type="password" name="senha" id="senha" placeholder="Escreva sua senha" required>
                 </div>
-                <button class="login__button">Entrar</button>
+                <button onclick="realizarLogin()" class="login__button">Entrar</button>
+                <a class="login__convidado" href="/assets/pages/produtos-home.html">Entre como convidado!</a>
             </fieldset>
         </form>
     </section>
@@ -85,7 +88,8 @@
         </section>
     </footer>    
     <section class="rodape">
-        <p>Desenvolvido por Guilherme Braga<br>2023</p>
+        <p onclick="redirecionarParaPortifolio()" >Desenvolvido por Guilherme Braga<br>2023</p>
     </section> 
+    <script src="/assets/javascript/script.js"></script>
 </body>
 </html>

@@ -39,7 +39,7 @@
                     <img src="assets/images/Icone_lupa.png" alt="Icone de lupa">
                 </div>
             </div>
-            <button onclick="" class="cabecalho__bt-login">Login</button>
+            <button onclick="redirecionarParaLogin()" class="cabecalho__bt-login">Login</button>
         </nav>
     </header>
     <section class="banner">
@@ -61,7 +61,7 @@
             
             <ul class="produtos__lista">
                 <li class="produtos__cards">
-                    <img src="assets/images/image_star-wars_1.png" alt="Foto de caneca star wars">
+                    <img onclick="redirecionarParaProduto()"  src="assets/images/image_star-wars_1.png" alt="Foto de caneca star wars">
                     <p class="cards__produtos">Produto XYZ</p>
                     <p class="cards__valor">R$ 60,00</p>
                     <a class="cards__link" href="#">Ver produto</a>
@@ -230,7 +230,8 @@
         </section>
     </footer>
     <section class="rodape">
-            <p>Desenvolvido por Guilherme Braga<br>2023</p>        
-    </section>    
+            <p onclick="redirecionarParaPortifolio()">Desenvolvido por Guilherme Braga<br>2023</p>        
+    </section> 
+    <script src="/assets/javascript/pagina-index.js"></script>   
 </body>
 </html>

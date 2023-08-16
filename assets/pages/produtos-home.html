@@ -227,19 +227,21 @@
                 <li><a href="#">Quero ser franqueado</a></li>
                 <li><a href="#">Anuncie aqui</a></li>
             </ul>
-            <form action="">
+            <form action="#" id="formularioContato">
                 <fieldset class="contato__area">
                     <legend>
                         <h3 class="contato__titulo">Fale conosco</h3>
                     </legend>
                     <div class="contato__campoNome">
                         <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                        <p id="nomeVazio"></p>
                     </div>
                     <div class="contato__campoMensagem">
-                        <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem" ></textarea>
+                        <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                        <p id="mensagemErro"></p>
                     </div>
-                    <button class="contato__button">Enviar mensagem</button>
+                    <button type="button" onclick="validarMensagem()" class="contato__button">Enviar mensagem</button>
                 </fieldset>
             </form>
         </section>
@@ -248,6 +250,7 @@
         <p onclick="redirecionarParaPortifolio()" >Desenvolvido por Guilherme Braga<br>2023</p>
     </section>
     <script src="/assets/javascript/pagina-produtosHome.js"></script>
+    <script src="/assets/javascript/valida-formulario.js"></script> 
     
 </body>
 </html>

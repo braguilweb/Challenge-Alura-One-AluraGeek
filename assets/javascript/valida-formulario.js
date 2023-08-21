@@ -44,6 +44,7 @@ function validarMensagem() {
     
     alert('Mensagem enviada com sucesso');
     document.getElementById('formularioContato').reset();
+    
     window.location.href = '/index.html'
 
     

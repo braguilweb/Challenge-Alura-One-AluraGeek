@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="/assets/css/contato/contato-titulo.css">
     <link rel="stylesheet" href="/assets/css/quemSomos/quemSomos.css">
     <link rel="stylesheet" href="/assets/css/login/sessao-iniciar/login-convidado.css">
+    <link rel="stylesheet" href="/assets/css/mensagemErro/mensagemErro.css">
+    <link rel="stylesheet" href="assets/css/mensagemErro/mensagemErro.css">
     
 </head>
 <body>
@@ -43,18 +45,20 @@
         </nav>
     </header>
     <section class="IniciarSessao__container">
-        <form action="">
+        <form action="" data-formulario>
             <fieldset class="login__area">
                 <legend>
                     <h3 class="login__titulo">Iniciar Sessão</h3>
                 </legend>
                 <div class="login__campoEmail">
-                    <input type="email" name="email" id="email" placeholder="Escreva seu email" required>
+                    <input type="email" name="email" id="email" placeholder="Escreva seu email" >
+                    <p id="emailError" class="mensagem--de--erro"></p>
                 </div>
                 <div class="login__campoSenha">
-                    <input type="password" name="senha" id="senha" placeholder="Escreva sua senha" required>
+                    <input type="password" name="senha" id="senha" placeholder="Escreva sua senha" >
+                    <p id="senhaError" class="mensagem--de--erro"></p>
                 </div>
-                <button onclick="realizarLogin()" class="login__button">Entrar</button>
+                <button id="login-button" class="login__button">Entrar</button>
                 <a class="login__convidado" href="/assets/pages/produtos-home.html">Entre como convidado!</a>
             </fieldset>
         </form>
@@ -78,11 +82,11 @@
                     <div class="contato__campoNome">
                         <label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
-                        <p id="nomeVazio"></p>
+                        <p id="nomeVazio" class="mensagem--de--erro"></p>
                     </div>
                     <div class="contato__campoMensagem">
                         <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
-                        <p id="mensagemErro"></p>
+                        <p id="mensagemErro" class="mensagem--de--erro"></p>
                     </div>
                     <button type="button" onclick="validarMensagem()" class="contato__button">Enviar mensagem</button>
                 </fieldset>
@@ -94,5 +98,6 @@
     </section> 
     <script src="/assets/javascript/script.js"></script>
     <script src="/assets/javascript/valida-formulario.js"></script> 
+    <script src="/assets/javascript/valida-login.js"></script>
 </body>
 </html>

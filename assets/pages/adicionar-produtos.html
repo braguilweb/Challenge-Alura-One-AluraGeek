@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="/assets/css/contato/contato-campoNome.css">
     <link rel="stylesheet" href="/assets/css/contato/contato-titulo.css">
     <link rel="stylesheet" href="/assets/css/quemSomos/quemSomos.css">
+    <link rel="stylesheet" href="assets/css/mensagemErro/mensagemErro.css">
 </head>
 <body>
     <header>
@@ -92,11 +93,11 @@
                     <div class="contato__campoNome">
                         <label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
-                        <p id="nomeVazio"></p>
+                        <p id="nomeVazio" class="mensagem--de--erro"></p>
                     </div>
                     <div class="contato__campoMensagem">
                         <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
-                        <p id="mensagemErro"></p>
+                        <p id="mensagemErro" class="mensagem--de--erro"></p>
                     </div>
                     <button type="button" onclick="validarMensagem()" class="contato__button">Enviar mensagem</button>
                 </fieldset>
